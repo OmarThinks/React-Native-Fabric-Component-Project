@@ -1,12 +1,15 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ */
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import RTNCenteredText from 'rtn-centered-text/js/RTNCenteredTextNativeComponent';
 
-function App() {
+const App = () => {
   return (
-    <SafeAreaView>
-      <Text>Hello World</Text>
-    </SafeAreaView>
+    <RTNCenteredText text="Hello World!" style={{width: '100%', height: 30}} />
   );
-}
-
+};
 export default App;

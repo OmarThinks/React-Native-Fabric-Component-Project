@@ -27,10 +27,6 @@
     "url": "https://github.com/<your_github_handle>/rtn-calculator/issues"
   },
   "homepage": "https://github.com/<your_github_handle>/rtn-calculator#readme",
-  "peerDependencies": {
-    "react": "^18.2.0",
-    "react-native": "^0.71.4"
-  },
   "codegenConfig": {
     "name": "RTNCalculatorSpec",
     "type": "modules",
@@ -38,5 +34,9 @@
     "android": {
       "javaPackageName": "com.rtncalculator"
     }
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.71.4"
   }
 }
